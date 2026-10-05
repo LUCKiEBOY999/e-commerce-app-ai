@@ -1,0 +1,6 @@
+{
+  "name": "E-Commerce Product Segmentation System",
+  "description": "Interactive AI dashboard for e-commerce product segmentation using K-Means clustering, feature engineering, and business decision insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

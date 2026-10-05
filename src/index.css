@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cherry: #8E1825;
+  --color-cherry-dark: #6E121C;
+  --color-cherry-light: #FBF0F1;
+  --color-columbia: #C8D9EC;
+  --color-columbia-dark: #375678;
+  --color-columbia-light: #EBF2FA;
+  --color-butter: #FFEDAD;
+  --color-butter-dark: #8C6A08;
+  --color-butter-light: #FFF9E6;
+  --color-chocolate: #3D2722;
+  --color-chocolate-light: #5E3E37;
+}
+
+/* Custom striped banner pattern matching the user's reference image */
+.bg-awning-stripes {
+  background: repeating-linear-gradient(
+    90deg,
+    #8E1825,
+    #8E1825 24px,
+    #C8D9EC 24px,
+    #C8D9EC 48px
+  );
+}
+
+.bg-awning-stripes-slim {
+  background: repeating-linear-gradient(
+    90deg,
+    #8E1825,
+    #8E1825 12px,
+    #C8D9EC 12px,
+    #C8D9EC 24px
+  );
+}
+
+.bg-butter-stripes {
+  background: repeating-linear-gradient(
+    90deg,
+    #FFEDAD,
+    #FFEDAD 14px,
+    #FFF6D9 14px,
+    #FFF6D9 28px
+  );
+}
+
+/* Custom scrollbars with brand tones */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8D9EC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8E1825;
+}
